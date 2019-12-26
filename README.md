@@ -1,11 +1,12 @@
 ## Welcome to Openstorage-CSI
 
-This organization contains all of the open source forks of Kubernetes CSI components by Portworx.
+This organization contains all of the open source forks of Kubernetes CSI components by Portworx. All forked releases are built off of existing Kubernetes-CSI releases. For example, our External Provisioner v1.4.0-1 release contains all changes in v1.4.0, with a few extra changes (-1). 
 
-So far, we have the following forks:
-1. [External Provisioner](https://github.com/openstorage-csi/external-provisioner)
-2. [External Attacher](https://github.com/openstorage-csi/external-attacher)
-3. [External Snapshotter](https://github.com/openstorage-csi/external-snapshotter)
-4. [External Resizer](https://github.com/openstorage-csi/external-resizer)
+Currently, have the following fork releases with minor changes.
+1. [External Provisioner v1.4.0-1](https://github.com/openstorage-csi/external-provisioner/releases/tag/v1.4.0-1)
+  * add PVC Metadata to req.Parameters for openstorage
+  * Separate PVC labels and annotations
 
-For each fork, check the latest release for our changes.
+2. [External Snapshotter v1.2.2-1](https://github.com/openstorage-csi/external-snapshotter/releases/tag/v1.2.2-1)
+  * perform an os.Exit when the CSI gRPC connection is lost
+  * Add support for configmaps leaderelection for k8s 1.13
