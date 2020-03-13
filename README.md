@@ -11,5 +11,5 @@ Currently, have the following fork releases with minor changes.
   * perform an os.Exit when the CSI gRPC connection is lost
   * Add support for configmaps leaderelection for k8s 1.13
 
-3. [External Snapshotter v1.2.2-1](https://github.com/openstorage-csi/external-attacher/releases/tag/v1.2.1-1)
+3. [External Attacher v1.2.1-1](https://github.com/openstorage-csi/external-attacher/releases/tag/v1.2.1-1)
   * perform an os.Exit when the CSI gRPC connection is lost. This change is only in v2.0.0+ versions of the official sidecar, which has a minimum k8s version of 1.14.
