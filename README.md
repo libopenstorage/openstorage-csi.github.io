@@ -1,6 +1,6 @@
 ## Welcome to Openstorage-CSI
 
-This organization contains all of the open source forks of Kubernetes CSI components by Portworx. All forked releases are built off of existing Kubernetes-CSI releases. For example, our External Provisioner v1.4.0-1 release contains all changes in v1.4.0, with a few extra changes (-1). 
+This organization contains all of the open source forks of Kubernetes CSI components by Portworx. All forked releases are built off of existing Kubernetes-CSI releases. For example, our External Provisioner v1.6.0-1 release contains all changes in v1.6.0, with a few extra changes. 
 
 Currently, have the following fork releases with minor changes.
 1. [External Provisioner v1.6.0-1](https://github.com/openstorage-csi/external-provisioner/releases/tag/v1.6.0-1)
